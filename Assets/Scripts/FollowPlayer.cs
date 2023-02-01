@@ -16,7 +16,7 @@ public class FollowPlayer : MonoBehaviour
     void Update()
     {
         transform.position = new Vector3(player.transform.position.x + 5, transform.position.y, transform.position.z);
-        if (Mathf.Abs(player.transform.position.y - transform.position.y) > 6)
+        if (Mathf.Abs(player.transform.position.y - transform.position.y) > 10)
         {
             transform.position = new Vector3(player.transform.position.x + 5, player.transform.position.y, transform.position.z);
 

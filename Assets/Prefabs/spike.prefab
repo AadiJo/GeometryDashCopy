@@ -31,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2653311660422335923
 SpriteRenderer:
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 065441e4ee37ede41b090ad4805a10d6, type: 3}
-  m_Color: {r: 0, g: 0.27058825, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.1837959, b: 0.6792453, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -140,4 +140,3 @@ PolygonCollider2D:
       - {x: 0.52000004, y: -0.45333335}
       - {x: 0.50333333, y: -0.4166667}
       - {x: 0.23333333, y: 0.05}
-  m_UseDelaunayMesh: 0

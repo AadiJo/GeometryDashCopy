@@ -7,7 +7,7 @@ public class PortalScript : MonoBehaviour
 {
     public Gamemodes Gamemode;
     public Speeds Speed;
-    public Gravity gravity;
+    public int gravity;
     public int State;
 
     void OnTriggerEnter2D(Collider2D collision)
